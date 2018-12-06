@@ -9,7 +9,7 @@ import os
 token = 'NTIwMzgxMjc2MzczNTE2Mjk4.DutCsQ.2YUUygFphOiQk6s7a3l9lZCm_bs'
 
 # reacts to pastebin posts with pob info in these channels
-active_channels = ['active-pob']
+active_channels = ['hideout']
 # debug level
 debug_level = logging.INFO
 # This is your Project Root
