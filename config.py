@@ -6,7 +6,7 @@ import os
 
 ## --  Main
 # Enter discord token from https://discordapp.com/developers/applications/me/
-token = 'NTIwMzgxMjc2MzczNTE2Mjk4.DutCsQ.2YUUygFphOiQk6s7a3l9lZCm_bs'
+token = os.environ['DISCORD_TOKEN']
 
 # reacts to pastebin posts with pob info in these channels
 active_channels = ['hideout']
@@ -26,7 +26,7 @@ color = 0x859900
 
 ## -- Logging
 # Owners of the bot that can use the advanced/admin commands to export logs.
-owners = ['tanino#2783']
+owners = [os.environ['DISCORD_OWNER']]
 dm_auto_log = True
 # required vars: {ts}=timestamp, {u}=username, {uid} = user id, {content} = message content
 dm_log_format = '{ts} <{u}({uid})>: {content}'
