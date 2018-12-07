@@ -1,1 +1,1 @@
-worker: pyuthon3 discord_pob.py
+worker: python3 discord_pob.py
