@@ -29,6 +29,7 @@ color = 0x859900
 owners = [os.environ['DISCORD_OWNER']]
 dm_auto_log = True
 # required vars: {ts}=timestamp, {u}=username, {uid} = user id, {content} = message content
-dm_log_format = '{ts} <{u}({uid})>: {content}'
+# dm_log_format = '{ts} <{u}({uid})>: {content}'
+dm_log_format = '{content}'
 # Poll dm's every 60 minutes once.
 dm_poll_rate_seconds=60*60*60
